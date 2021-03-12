@@ -1,4 +1,13 @@
+# Core features of this web app
+
+*Ability for users to choose a city and see air quality in the form of cigarettes and particulate matter (PM2.5)
+*All text fields from the data json file displaying in a logical manner
+*All production files output are included into the ./dist folder ready for making live.
+*Ability to switch between English and Hindi
+*You can run test all unit/integration tests using ```npm run test```
+
 # Getting Started with Air Quality Indicator
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -25,3 +34,5 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+***You can skip all this if all you want is just to see the finish work, which is in the dist folder.***
