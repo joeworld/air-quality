@@ -52,13 +52,6 @@ const App = () =>{
   if(!jsonData) return null;
   return (
     <>
-      <section className="bgimage">
-        <div className="container-fluid">
-            <h2 
-              data-testid="hero-title"
-              className="text-center text-white">{jsonData.hero_1_title}</h2>
-        </div>
-      </section>
       <div className="container-fluid">
         <div className="mt-2">
           <div className="w-25">
@@ -77,7 +70,7 @@ const App = () =>{
               className="custom-select"
               id="lang_version"
             >
-              <option value="" disabled>Select Lang</option>
+              <option value="" disabled style={{fontWeight: "bold"}}>Select Lang</option>
               <option value="english">English</option>
               <option value="hindi">Hindi</option>
                 
@@ -107,7 +100,7 @@ const App = () =>{
             <div className="row">
               <div className="col-md-6">
                 <div className="form-group">
-                  <label className="col-form-label" data-testid='compare-tabs_1_title'>{jsonData['compare-tabs_1_title']}</label><br/>
+                  <label className="col-form-label" data-testid='compare-tabs_1_title' style={{fontWeight: "bold", fontSize: "30px"}}>{jsonData['compare-tabs_1_title']}</label><br/>
                   <small data-testid='compare-tabs_1_method'>{jsonData['compare-tabs_1_method']}</small>
                   <select
                     value={state.city}
