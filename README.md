@@ -1,10 +1,10 @@
 # Core features of this web app
 
-*Ability for users to choose a city and see air quality in the form of cigarettes and particulate matter (PM2.5)
-*All text fields from the data json file displaying in a logical manner
-*All production files output are included into the ./dist folder ready for making live.
-*Ability to switch between English and Hindi
-*You can run test all unit/integration tests using ```npm run test```
+- Ability for users to choose a city and see air quality in the form of cigarettes and particulate matter (PM2.5)
+- All text fields from the data json file displaying in a logical manner
+- All production files output are included into the ./dist folder ready for making live.
+- Ability to switch between English and Hindi
+- You can run test all unit/integration tests using ```npm run test```
 
 # Getting Started with Air Quality Indicator
 
